@@ -19,8 +19,8 @@ h3 {
 }
 nav > ul{
     display: flex;
-    align-items: center;
-
+   align-items: center;
+   
 }
 nav li{
     list-style: none;
@@ -38,9 +38,34 @@ color: white;
 font-size: 20px;
 font-weight: 700;
 padding: 15px 35px;
+border: 0;
+
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
+}
+.header{
+    background-color: #fff8f3;
+
+}
+.banner{
+ padding: 30px 30px 30px 150px; 
+display: flex;
+
+align-items: center;
+
+}
+.banner .profile picture{
+    width: 500px; 
+    
+}
+.banner-content{
+   
+
+}
+.moni{
+    break-after: auto;
 }
